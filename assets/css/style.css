@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+.container{
+    width: 66%;
+    margin: auto;
+}
+
+/* ?HEADER TOP START */
+
+.header-top{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top a:hover{
+    background-color: red;
+}
+.header-top a{
+    font-size: 15px;
+    color: #8d94ad;
+}
+.top-left{
+    width: 222px;
+    height: 17.6px;
+}
+.top-right{
+    width: 618.78px;
+    height: 22px;
+}
+.top-left ul{
+    display: flex;
+    justify-content: space-between;
+}
+.top-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ?HEADER BOTTOM START */
+
+.header-bottom{
+    background-color: #ca1016;
+    height: 60px;
+}
+.header-bottom a{
+    color: #fff;
+}
+.header-bottom a:nth-child(1){
+    width: 119.5px;
+    height: 60px;
+    padding: 23px 25px 23px 0;
+}
+.header-bottom a:nth-child(2){
+    width: 118.4px;
+    height: 60px;
+    padding: 21px 15px;
+}
+.header-bottom a:nth-child(3){
+    width: 112.23px;
+    height: 60px;
+    padding: 21px 15px;
+}
+.header-bottom a:nth-child(4){
+    width: 233.43px;
+    height: 60px;
+    padding: 21px 15px;
+}
+.bottom-left a:nth-child(2):hover{
+    background-color:aquamarine;
+}
+.bottom-left a:nth-child(3):hover{
+    background-color:aquamarine;
+}
+.bottom-left a:nth-child(4):hover{
+    background-color:aquamarine;
+}
+.new-elan-button a:hover{
+    background-color:aquamarine;
+}
+.bottom-left{
+    width: 584px;
+    display: flex;
+}
+.bottom-left ul{
+    width: 584px;
+    display: flex;
+}
+.new-elan-button{
+    background-color: #7ed321;
+    height: 40px;
+    width: 103px;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ?MAIN START */
+
+.vip-elan-title{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.vip-elan-title-ads{
+    width: 399.25px;
+    height: 30.4px;
+}
+.vip-elan-title-ads img{
+    width: 399.25px;
+    height: 30.4px;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+    width: 229px;
+    height: 266px;
+    margin-right: 18px;
+    margin-bottom: 15px;
+}
+img{
+    width: 229px;
+    height: 171px;
+}
+.product .price{
+    font-size: 18px;  
+    font-weight: 600; 
+    color: black;
+}
+.product .car-name{
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.product .about{
+    font-size: 16px;
+    color: black;
+}
+.product .date{
+    font-size: 14px;
+    line-height: 17px;
+    color: #8d94ad;
+}
+.link{
+    text-decoration: none;
+}
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+}
+.exchange{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: green;
+}
+.vip{
+    position: absolute;
+    bottom: 100px;
+    right: 5px;
+    color: red;
+}
+.product-description{
+    padding: 10px;
+}
